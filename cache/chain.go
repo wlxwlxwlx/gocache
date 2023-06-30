@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/eko/gocache/v2/store"
+	"github.com/wlxwlxwlx/gocache/v2/store"
 )
 
 const (

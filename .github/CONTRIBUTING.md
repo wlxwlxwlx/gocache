@@ -25,7 +25,7 @@ If you have a question, please feel free to open a new issue on this repository.
 
 ## Bug Reports
 
-Search through [Github Issues](https://github.com/eko/gocache/issues) to see if the bug has already been reported. If so, please comment with any additional information.
+Search through [Github Issues](https://github.com/wlxwlxwlx/gocache/issues) to see if the bug has already been reported. If so, please comment with any additional information.
 
 New bug reports must include:
 
@@ -39,7 +39,7 @@ Lacking reports may be autoclosed with a link to these instructions.
 
 ## Feature Requests
 
-Search through [Github Pull Requests](https://github.com/eko/gocache/pulls) to see if someone has already suggested the feature. If so, please provide support with a [reaction](https://github.com/blog/2119-add-reactions-to-pull-requests-issues-and-comments) and add your own use case.
+Search through [Github Pull Requests](https://github.com/wlxwlxwlx/gocache/pulls) to see if someone has already suggested the feature. If so, please provide support with a [reaction](https://github.com/blog/2119-add-reactions-to-pull-requests-issues-and-comments) and add your own use case.
 
 To open a new feature request, please include:
 
@@ -60,7 +60,7 @@ Pull Requests modifying source code, including backwards compatible additions, w
 
 Pull requests must:
 
-1. Be forked off the [master](https://github.com/eko/gocache/tree/master) branch.
+1. Be forked off the [master](https://github.com/wlxwlxwlx/gocache/tree/master) branch.
 2. Pass the linter and conform to existing coding styles.
 3. Commits are [squashed](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History#Squashing-Commits) to minimally coherent units of changes.
 4. Are accompanied by tests covering the new feature or demonstrating the bug for fixes.
@@ -68,4 +68,4 @@ Pull requests must:
 6. Introduce only changes that further the PR's singular purpose (ex. do not tweak an unrelated config along with adding your feature).
 7. Not break any existing unit or end to end tests.
 
-**Important:** By issuing a Pull Request you agree to allow the project owners to license your work under the terms of the [License](https://github.com/eko/gocache/blob/master/LICENSE).
+**Important:** By issuing a Pull Request you agree to allow the project owners to license your work under the terms of the [License](https://github.com/wlxwlxwlx/gocache/blob/master/LICENSE).

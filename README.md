@@ -1,6 +1,6 @@
-[![Test](https://github.com/eko/gocache/actions/workflows/all.yml/badge.svg?branch=master)](https://github.com/eko/gocache/actions/workflows/all.yml)
-[![GoDoc](https://godoc.org/github.com/eko/gocache?status.png)](https://godoc.org/github.com/eko/gocache)
-[![GoReportCard](https://goreportcard.com/badge/github.com/eko/gocache)](https://goreportcard.com/report/github.com/eko/gocache)
+[![Test](https://github.com/wlxwlxwlx/gocache/actions/workflows/all.yml/badge.svg?branch=master)](https://github.com/wlxwlxwlx/gocache/actions/workflows/all.yml)
+[![GoDoc](https://godoc.org/github.com/wlxwlxwlx/gocache?status.png)](https://godoc.org/github.com/wlxwlxwlx/gocache)
+[![GoReportCard](https://goreportcard.com/badge/github.com/wlxwlxwlx/gocache)](https://goreportcard.com/report/github.com/wlxwlxwlx/gocache)
 [![codecov](https://codecov.io/gh/eko/gocache/branch/master/graph/badge.svg)](https://codecov.io/gh/eko/gocache)
 
 Gocache
@@ -354,15 +354,15 @@ Mix this with expiration times on your caches to have a fine tuned control on ho
 To begin working with the latest version of go-cache, you can use the following command:
 
 ```go
-go get github.com/eko/gocache/v2
+go get github.com/wlxwlxwlx/gocache/v2
 ```
 
 To avoid any errors when trying to import your libraries use the following import statement:
 
 ```go
 import (
-	"github.com/eko/gocache/v2/cache"
-	"github.com/eko/gocache/v2/store"
+	"github.com/wlxwlxwlx/gocache/v2/cache"
+	"github.com/wlxwlxwlx/gocache/v2/store"
 )
 ```
 

@@ -9,7 +9,7 @@ import (
 	reflect "reflect"
 	time "time"
 
-	store "github.com/eko/gocache/v2/store"
+	store "github.com/wlxwlxwlx/gocache/v2/store"
 	gomock "github.com/golang/mock/gomock"
 )
 

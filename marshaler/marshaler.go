@@ -7,8 +7,8 @@ import (
 
 	"github.com/vmihailenco/msgpack"
 
-	"github.com/eko/gocache/v2/cache"
-	"github.com/eko/gocache/v2/store"
+	"github.com/wlxwlxwlx/gocache/v2/cache"
+	"github.com/wlxwlxwlx/gocache/v2/store"
 )
 
 // Marshaler is the struct that marshal and unmarshal cache values

@@ -9,8 +9,8 @@ import (
 	reflect "reflect"
 	time "time"
 
-	codec "github.com/eko/gocache/v2/codec"
-	store "github.com/eko/gocache/v2/store"
+	codec "github.com/wlxwlxwlx/gocache/v2/codec"
+	store "github.com/wlxwlxwlx/gocache/v2/store"
 	gomock "github.com/golang/mock/gomock"
 )
 

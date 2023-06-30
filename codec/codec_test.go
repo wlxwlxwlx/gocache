@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/eko/gocache/v2/store"
-	mocksStore "github.com/eko/gocache/v2/test/mocks/store"
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
+	"github.com/wlxwlxwlx/gocache/v2/store"
+	mocksStore "github.com/wlxwlxwlx/gocache/v2/test/mocks/store"
 )
 
 func TestNew(t *testing.T) {

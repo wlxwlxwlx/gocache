@@ -79,6 +79,7 @@ func (s *RistrettoStore) Set(ctx context.Context, key interface{}, value interfa
 	if tags := options.TagsValue(); len(tags) > 0 {
 		s.setTags(ctx, key, tags)
 	}
+	s.client.Wait()
 	return nil
 }
 
@@ -151,8 +152,4 @@ func (s *RistrettoStore) Clear(_ context.Context) error {
 // GetType returns the store type
 func (s *RistrettoStore) GetType() string {
 	return RistrettoType
-}
-
-func (s *RistrettoStore) Wait() {
-	s.client.Wait()
 }

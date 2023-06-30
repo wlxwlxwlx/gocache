@@ -1,6 +1,6 @@
 module github.com/eko/gocache/v2
 
-go 1.18
+go 1.17
 
 require (
 	github.com/XiaoMi/pegasus-go-client v0.0.0-20210427083443-f3b6b08bc4c2

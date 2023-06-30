@@ -21,6 +21,7 @@ type RistrettoClientInterface interface {
 	SetWithTTL(key, value interface{}, cost int64, ttl time.Duration) bool
 	Del(key interface{})
 	Clear()
+	Wait()
 }
 
 // RistrettoStore is a store for Ristretto (memory) library
@@ -78,7 +79,6 @@ func (s *RistrettoStore) Set(ctx context.Context, key interface{}, value interfa
 	if tags := options.TagsValue(); len(tags) > 0 {
 		s.setTags(ctx, key, tags)
 	}
-
 	return nil
 }
 
@@ -151,4 +151,8 @@ func (s *RistrettoStore) Clear(_ context.Context) error {
 // GetType returns the store type
 func (s *RistrettoStore) GetType() string {
 	return RistrettoType
+}
+
+func (s *RistrettoStore) Wait() {
+	s.client.Wait()
 }
